@@ -1,0 +1,56 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the h1 element */
+  h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  /* Style the h2 element */
+  h2 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Style the h3 elements */
+  h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Style links (anchor tags) */
+  a {
+    text-decoration: none;
+    color: #0078d4;
+    font-weight: bold;
+  }
+  
+  /* Style links on hover */
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Style images */
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  /* Scale images on hover */
+  img:hover {
+    transform: scale(1.05);
+  }
+  
